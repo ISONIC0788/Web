@@ -9,14 +9,26 @@ body{
 body.dark-mode {
     background-color: #121212;
     color: #ffffff;
+    background-image: none;
+    z-index: 2;
 }
 
 .dark-mode .navbar {
     background-color: #333;
 }
+.dark-mode a {
+    color: white;
+}
 
 .dark-mode button {
     background-color: #333;
+    color: white;
+}
+.dark-mode .card{
+    background-color: #333;
+    color: white;
+}
+.dark-mode .item{
     color: white;
 }
 
@@ -29,4 +41,7 @@ body.dark-mode {
     width: 100px; 
     height: 25px;
     
+}
+.link-project{
+    text-decoration: none;
 }
