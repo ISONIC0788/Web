@@ -1,0 +1,22 @@
+body{
+    background-image: url(../img/s05b4fkn.png);
+    background-size: contain;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar {
+    background-color: #333;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .btn {
+    border-color: #444;
+}
