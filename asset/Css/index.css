@@ -1,6 +1,9 @@
 body{
     background-image: url(../img/s05b4fkn.png);
     background-size: contain;
+    font-family: 'Advent Pro', sans-serif;
+    
+        
 }
 
 body.dark-mode {
