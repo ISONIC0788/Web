@@ -13,5 +13,31 @@
             } else {
                 darkModeToggle.innerHTML = '<i class="bi bi-brightness-low"></i> ';
             }
+            //start of addition javascrip code 
+
+
+            document.getElementById("git-link").addEventListener("click",function(){
+                window.location.assign("https://github.com/ISONIC0788");
+               });
+
+             // link decration 
+             let  gitpr1 = "";
+             let gitpr2= "";
+            document.getElementById("pr1").addEventListener("click",function(){
+                window.location="https://github.com/ISONIC0788/EPSONIC_MS";
+            })
+            document.getElementById("pr2").addEventListener("click",function(){
+                window.location ="https://github.com/ISONIC0788/Window_app_in_python";
+            })
+           
+             //end for addition javascpi code  
+
         });
+    
    
+
+//    document.getElementById("linked-link").addEventListener("click",function{
+//     window.location.assign("");
+//    })
+
+    
